@@ -18,6 +18,19 @@ You can then use the script provided in `src/misc/prepare_visda_test.py` to tran
 
 For other datasets, just implement a new dataset provider given the templates in `src/datasets/providers.py`.
 
+## Paper
+
+The published version of the paper is available [here](https://www.bmvc2020-conference.com/assets/papers/0221.pdf). Please consider citing us when you use our code.
+
+```
+@inproceedings{ringwald2020unsupervised,
+    title={{Unsupervised Domain Adaptation by Uncertain Feature Alignment}},
+    author={Ringwald, Tobias and Stiefelhagen, Rainer},
+    booktitle={{The British Machine Vision Conference (BMVC)}},
+    year={2020}
+}
+```
+
 ## Repo structure
 
 * `src/`: contains the Python source code for UFAL.
